@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TextInput, StyleSheet } from 'react-native';
-import { Feather, EvilIcons } from '@expo/vector-icons';
+import { EvilIcons } from '@expo/vector-icons';
 
 const SearchBar = ({term, onTermChange, onTermSubmit}) => {
     return(
@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         marginHorizontal: 15,
         flexDirection: 'row',
+        marginBottom: 10,
     },
     inputStyle: {
         flex: 1,
